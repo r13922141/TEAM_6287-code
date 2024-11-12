@@ -9,15 +9,14 @@ https://digi.bib.uni-mannheim.de/tesseract/
 ## embedding model
 "BAAI/bge-m3"
 執行到此code即可下載model
-ˋˋˋ
+
 model = SentenceTransformer("BAAI/bge-m3")
-ˋˋˋ
+
 ## 注意事項
 這幾行code只有在處理finance時執行，程式註解有說明
-ˋˋˋ
+
 pdf_text=remove_number(pdf_text)
 pdf_text=pdf_text.replace("-","").replace("$","").replace(",","")
-ˋˋˋ
-ˋˋˋ
+
 if key==652 or key==753 or key==979: image_PIL = image_PIL.rotate(-90, expand=True) 
-ˋˋˋ
+
