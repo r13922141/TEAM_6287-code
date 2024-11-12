@@ -16,6 +16,7 @@ model = SentenceTransformer("BAAI/bge-m3")
 這幾行code只有在處理finance時執行，程式註解有說明
 
 pdf_text=remove_number(pdf_text)
+
 pdf_text=pdf_text.replace("-","").replace("$","").replace(",","")
 
 if key==652 or key==753 or key==979: image_PIL = image_PIL.rotate(-90, expand=True) 
