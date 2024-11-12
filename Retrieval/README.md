@@ -4,7 +4,11 @@
 分有無reranker的
 ## model
 執行時可下載
+
 embedding:
+
 "BAAI/bge-m3"
+
 reranker:
+
 'BAAI/bge-reranker-v2-minicpm-layerwise'
