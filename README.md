@@ -9,7 +9,7 @@
 ### Retrieval
 用於競賽當天運行程式，詳看Retrieval中的README
 ## requirment.txt
-此為運行的環境，並不是所有都有使用
+此為運行的環境，並不是所有都有使用，因數量眾多，不做刪減
 ## model
 使用BAAI/bge-m3、BAAI/bge-reranker-v2-minicpm-layerwise，使用GPU運行
 ## 運行裝置環境
